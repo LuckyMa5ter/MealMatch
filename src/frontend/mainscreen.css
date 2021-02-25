@@ -1,0 +1,21 @@
+.header {
+    background-color: skyblue;
+    height: 50px;
+  
+  }
+  
+  .header a{
+    display: block;
+    text-align: center;
+     padding-left: 0px;
+     padding-right: 0px;
+      color: white;
+  }
+  
+  .header login {
+    display: block;
+  text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }

@@ -1,5 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code>!
         </p>
         <a
           className="App-link"
@@ -21,5 +23,8 @@ function App() {
     </div>
   );
 }
+
+const roblox = <h1>roblox</h1>
+ReactDOM.render(roblox, document.getElementById('root'))
 
 export default App;
